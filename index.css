@@ -452,7 +452,7 @@
   margin: 0 0 0 0;
 }
 .cover {
-  background-image: url(./images/__background.jpg);
+  background-image: url(./images/background.jpg);
 
   max-width: 1184px;
   margin: 105px auto 0px auto;
