@@ -478,6 +478,8 @@
   opacity: 0.3;
   cursor: pointer;
   transition: opacity 1s linear;
+  max-height: 740px;
+  max-width: 1184px;
 }
 .cover:hover::before {
   opacity: 0.8;
