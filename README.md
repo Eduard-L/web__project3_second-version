@@ -51,7 +51,7 @@ link: https://eduard-l.github.io/web__project3_second-version/
 
 ---
 
-![Practicum Logo](./images/logo_place_header)
+![Practicum Logo](./images/logo_place_header.png)
 
 ---
 
