@@ -1,0 +1,20 @@
+.into__text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  color: #ffffff;
+  max-width: 690px;
+  margin: 32px 0 0 0;
+}
+@media screen and (max-width: 768px) {
+  .into__text {
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .into__text {
+    max-width: 288px;
+  }
+}

@@ -1,0 +1,15 @@
+.logo-box__right-part {
+  background-color: #0278fe;
+  grid-area: logo3;
+  width: 19px;
+  height: 24px;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  border-radius: 0px 0px 2px 0px;
+}
+@media screen and (max-width: 400px) {
+  .logo-box__right-part {
+    width: 15.5px;
+    height: 17px;
+  }
+}

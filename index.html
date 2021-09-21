@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./index.css" />
+
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Document</title>
   </head>
 
@@ -13,9 +13,9 @@
     <div class="page">
       <header class="header">
         <div class="logo-box">
-          <div class="logo1"></div>
-          <div class="logo2"></div>
-          <div class="logo3"></div>
+          <div class="logo-box__upper-part"></div>
+          <div class="logo-box__left-part"></div>
+          <div class="logo-box__right-part"></div>
         </div>
         <p class="header__subtitle">Practicum Art Gallery</p>
       </header>
@@ -53,7 +53,7 @@
             neighbor.
           </p>
         </section>
-        <section class="grid-container">
+        <section class="grid">
           <img src="./images/item1.jpg" alt="" class="grid__image" />
           <img src="./images/item2.jpg" alt="" class="grid__image" />
           <img src="./images/item3.jpg" alt="" class="grid__image" />
@@ -74,7 +74,7 @@
                 Natalia Dolgushina, content producer
               </p>
             </div>
-            <div class="paragrap-wrapper">
+            <div class="place__paragraph-wrapper">
               <p class="place__paragraph">
                 Kyiv (or Kiev), Ukraine's capital, is a large city located on
                 the shores of the Dnipro river. Of course, no one in their right
@@ -104,7 +104,7 @@
                 Steffan Warren, lead editor, Kseniya Glagoleva, project manager
               </p>
             </div>
-            <div class="paragrap-wrapper">
+            <div class="place__paragraph-wrapper">
               <p class="place__paragraph">
                 The medieval ruin of Cricieth Castle overlooks the town below
                 from a rock that juts out into the sea. It is thought to have
@@ -132,7 +132,7 @@
               <p class="place__artist-header">Artist</p>
               <p class="place__artist-name">Travis Turner, author and editor</p>
             </div>
-            <div class="paragrap-wrapper">
+            <div class="place__paragraph-wrapper">
               <p class="place__paragraph">
                 Berea is a small town located in the central part of Kentucky.
                 The town is surrounded by beautiful forests and countryside.
@@ -164,7 +164,7 @@
               <p class="place__artist-header">Artist</p>
               <p class="place__artist-name">Grevisse Kenguruka, tech editor</p>
             </div>
-            <div class="paragrap-wrapper">
+            <div class="place__paragraph-wrapper">
               <p class="place__paragraph">
                 Muramvya is one of the 18 provinces of Burundi. In the kingdom
                 era, Muramvya was the royal capital and in 2007, because of its
@@ -205,7 +205,7 @@
                 Eduard Loktev , practicum student
               </p>
             </div>
-            <div class="paragrap-wrapper">
+            <div class="place__paragraph-wrapper">
               <p class="place__paragraph">
                 Donetsk, formerly known as Aleksandrovka, Yuzovka (or
                 Hughesovka), Stalin and Stalino , is an industrial city in
@@ -232,17 +232,17 @@
         </section>
         <section class="cover">
           <div class="cover__content">
-            <h2 class="content__title">Visit us</h2>
-            <ul class="content__subtitle">
+            <h2 class="cover__title">Visit us</h2>
+            <ul class="cover__subtitle">
               <li class="cover__list">Year-round</li>
               <li class="cover__list">Practicum Art Gallery</li>
               <li class="cover__list">404 Tim Berners-Lee Ave</li>
             </ul>
-            <button class="content__button">Buy tickets</button>
+            <button class="cover__button">Buy tickets</button>
           </div>
         </section>
       </main>
-      <footer>
+      <footer class="footer">
         <h2 class="footer__title">© 2021. Eduard Loktev</h2>
       </footer>
     </div>

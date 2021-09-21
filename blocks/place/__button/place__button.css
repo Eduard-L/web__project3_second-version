@@ -1,0 +1,25 @@
+.place__button {
+  grid-column: 1 / 2;
+  color: #ffffff;
+  background-color: #0278fe;
+  border-radius: 4px;
+  padding: 13px 20px 13px 20px;
+  border-style: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 248px;
+  cursor: pointer;
+  grid-area: button;
+  transition: 1s;
+}
+.place__button:hover {
+  background-color: #0063d2;
+}
+@media screen and (max-width: 700px) {
+  .place__button {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

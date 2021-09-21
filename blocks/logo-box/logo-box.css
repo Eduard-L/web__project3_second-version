@@ -1,0 +1,21 @@
+.logo-box {
+  display: grid;
+  margin-top: 34px;
+  background-position: center;
+  max-height: 34px;
+  max-width: 34px;
+  grid-gap: 2px;
+  grid-template-rows: 6px 24px;
+  grid-template-columns: 11px 19px;
+  grid-template-areas:
+    "logo1"
+    "logo2" "logo3";
+}
+@media screen and (max-width: 400px) {
+  .logo-box {
+    max-width: 23.5px;
+    max-height: 23.5px;
+    grid-template-rows: 5px 18px;
+    grid-template-columns: 6px 17px;
+  }
+}
